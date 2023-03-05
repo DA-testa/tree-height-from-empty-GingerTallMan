@@ -14,7 +14,7 @@ def compute_height(n, parents):
             depth=depth+1
             indicator=parents[indicator]
         max_height=max(max_height,depth)
-    return max_heigh
+    return max_height
 #Main
 def main():
     teksts=str(input())
